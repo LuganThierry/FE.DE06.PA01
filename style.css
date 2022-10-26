@@ -1,0 +1,74 @@
+/* HEADER */ 
+
+.header {
+    height: 120px;
+    background-color: #333333;
+}
+
+.nome {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 30px 40px;
+    color: bisque;
+}
+
+/* MAIN */ 
+
+.main {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    height: 150px;
+    width: 93%;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}
+
+.demais {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.outras {
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+}
+
+.secundaria {
+    height: 200px;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 0 20px 30px 0;
+    padding: 20px;
+}
+
+.vertical {
+    height: 327px;
+    width: 29.5%;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 0 0 40px 20px;
+    padding: 20px;
+}
+
+/* FOOTER */ 
+
+.footer {
+    height: 70px;
+    background-color:#333333;
+}
