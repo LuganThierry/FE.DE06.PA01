@@ -3,6 +3,9 @@
 .header {
     height: 120px;
     background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .nome {
@@ -10,6 +13,23 @@
     font-weight: bold;
     padding: 30px 40px;
     color: bisque;
+}
+
+.nav {
+    font-size: 25px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.links {
+    text-decoration: none;
+    color: bisque;
+}
+
+.links:hover {
+    font-weight: bold;
 }
 
 /* MAIN */ 
